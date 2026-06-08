@@ -1,0 +1,5 @@
+#!/bin/bash
+ollama serve &
+sleep 5
+ollama pull llama3.2:3b
+python app.py
