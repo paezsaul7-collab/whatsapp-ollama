@@ -4,7 +4,7 @@ import json
 def consultar_ollama(pregunta):
     url = "http://localhost:11434/api/generate"
     body = {
-        "model": "llama3.2:3b",
+        "model": "tinyllama",
         "prompt": pregunta,
         "stream": False
     }
